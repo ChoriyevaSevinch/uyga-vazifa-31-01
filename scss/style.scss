@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+.body{
+    padding: 15px;
+}
+.contianer{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1145px;
+}
+header{
+    padding: 30px 50px 30px 50px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+     max-width: 1145px;
+    .img-1{
+        display: flex;
+        align-items: center;
+        .text{
+            margin-left: 20px;
+            ul{
+                align-items: center;
+                display: flex;
+                list-style: none;
+                column-gap: 40px;
+            }
+        }
+    }
+    .btn{
+        display: flex;
+        column-gap: 30px;
+        ul{
+            list-style: none;
+            align-items: center;
+        }
+        button{
+            padding: 20px 40px 20px 40px;
+            border-radius: 0.875rem;
+        border: 1.5px solid var(--Medium-Grey, #686868);
+        cursor: pointer;
+        }
+    }
+}
+.main{
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1145px;
+    justify-content:space-between;
+    display: flex;
+    column-gap: 15px;
+  .textariya{
+    width: 100%;
+    max-width: 540px;
+    column-gap: 30px;
+    h1{
+    width: 343px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -1.1111111640930176px;
+    text-align: left;
+    }
+    p{
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    }
+    button{
+        padding: 15px 30px 15px 30px;
+        margin-top: 40px;
+        color: white;
+        border-radius: 0.9375rem;
+        background: var(--Black, #151515);
+        cursor: pointer;
+    }
+    .hello{
+        align-items: center;
+        column-gap: 20px;
+        display: flex;
+        margin-top: 50px;
+    }
+  }
+  img-1{
+    display: block;
+  }
+}
+@media (max-width:718px) {
+    header{
+        padding: 30px 50px 30px 50px;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: space-between;
+         max-width: 1145px;
+        .img-1{
+            display: flex;
+            align-items: center;
+            .text{
+                ul{
+                    li{
+                        display: none;
+                       
+                    }
+                }
+            }
+        }
+        .btn{
+            display: flex;
+            column-gap: 30px;
+            ul{
+              li{
+                display: none;
+              }
+            }
+            button{
+                display: none;
+            }
+        }
+    }
+    .main{
+        column-gap: 20px;
+        align-items: center;
+        margin-top: 80px;
+        width: 100%;
+        max-width: 375px;
+        justify-content:space-between;
+        column-gap: 15px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+      .textariya{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 540px;
+        column-gap: 30px;
+        h1{
+        font-family: Epilogue;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: -1.1111111640930176px;
+        text-align: center;
+        }
+        p{
+        font-family: Epilogue;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+
+        }
+        button{
+            padding: 15px 30px 15px 31px;
+            margin-top: 40px;
+            color: white;
+            border-radius: 0.9375rem;
+    background: var(--Black, #151515);
+        }
+        .hello{
+            align-items: center;
+            column-gap: 20px;
+            display: flex;
+            margin-top: 50px;
+        }
+      }
+      img-1{
+        display: block;
+        width: 100%;
+        max-width: 374px;
+      }
+    }  
+}
